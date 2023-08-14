@@ -36,3 +36,16 @@ const car4 = {
     color: "magenta"
 }
 console.log(Object.entries(car4))
+
+console.log("---------------------------------------")
+
+var clothingItem = {
+    price: 50,
+    color: "beige",
+    material: "cotton",
+    season: "autumn"
+}
+
+for( key of Object.keys(clothingItem) ) {
+    console.log(key, ":", clothingItem[key])
+}
