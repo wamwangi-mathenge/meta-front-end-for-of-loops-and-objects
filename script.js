@@ -17,3 +17,10 @@ const colors = ['red', 'orange', 'yellow']
 for (var color of colors) {
     console.log(color);
 }
+
+
+const car2 = {
+    speed: 200,
+    color: "red"
+}
+console.log(Object.keys(car2))
