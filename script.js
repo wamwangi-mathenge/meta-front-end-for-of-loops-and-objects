@@ -30,3 +30,9 @@ const car3 = {
     color: "yellow"
 }
 console.log(Object.values(car3))
+
+const car4 = {
+    speed: 400,
+    color: "magenta"
+}
+console.log(Object.entries(car4))
